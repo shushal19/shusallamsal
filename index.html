@@ -235,9 +235,11 @@
         <div class="contact-content">
           <form
             id="contact-form"
-            action="https://formsubmit.co/70b71518843893dbd09782a4cf346119"
+            action="https://api.web3forms.com/submit"
+            
             method="POST"
           >
+                <input type="hidden" name="access_key" value="570ce1b7-16db-4f32-a94e-2360b7260773">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-element">
@@ -296,7 +298,8 @@
               </div>
             </div>
             <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_template" value="table" />
+            
+<input type="hidden" name="redirect" value="https://web3forms.com/success">
             <div class="row justify-content-center mt-4">
               <button type="submit" class="btn btn-primary">
                 Send Message
